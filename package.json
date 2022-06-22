@@ -1,0 +1,20 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "description": "spider",
+  "main": "index.js",
+  "author": "vocsal",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "spider": "node ./src/scripts/run-spider.js"
+  },
+  "type": "module",
+  "imports": {
+    "#src/*": "./src/*"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jsdom": "^20.0.0"
+  }
+}
