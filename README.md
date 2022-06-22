@@ -7,4 +7,4 @@
 
 2. 在`/src/spiders`目录下创建爬虫脚本，如`demo.js`
 
-3. 运行命令`yarn`
+3. 运行命令`yarn spider <脚本名称，如demo>`
